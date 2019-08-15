@@ -1,0 +1,39 @@
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    border: 1px solid black;
+    width: 50%;
+}
+.up {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+.down {
+    border-top: 1px solid black;
+    padding: 15px;
+}
+.middle {
+    text-align: center;
+    vertical-align: center;
+    height: 150px;
+}
+.containers {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    vertical-align: 50%;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.buttons {
+    margin-left: 25px;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 15px;
+    background-color: gray;
+    color: white;
+}
